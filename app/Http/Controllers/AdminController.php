@@ -2832,8 +2832,8 @@ public function add_Deposit(Request $request){
          'available' => $newBalance,
          'pending' => 0,
      );
-     DB::table('balances')->update($updateBalance);
 
+     DB::table('balances')->where('user_id',$user_id)->update($updateBalance);
 
      DB::table('transactions')->insert($updateDetails);
      Session::flash('message', "Deposit Has been added  ");
