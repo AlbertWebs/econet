@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Cassava Technologies</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <link rel="shortcut icon" type="image/x-icon" href="https://www.econetafrica.com/images/favicon.png">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <link rel="shortcut icon" type="image/x-icon" href="https://www.econetafrica.com/images/favicon.png')}}">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://www.econetafrica.com/font-awesome-4.6.1/css/font-awesome.css" rel="stylesheet" type="text/css" />
+      <link href="https://www.econetafrica.com/font-awesome-4.6.1/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+      <link href="https://www.econetafrica.com/css/style.css" rel="stylesheet" type="text/css">
+      <script src="https://www.econetafrica.com/js/jquery-latest.min.js"></script>
+      <script type="text/javascript">
+         $(window).scroll(function(){
+            if ($(window).scrollTop() >= 500) {
+               $('.sticky').addClass('fixer');
+            }
+            else {
+               $('.sticky').removeClass('fixer');
+            }
+         });
+      </script>
+      <script type="text/javascript">
+         $(window).scroll(function(){
+            if ($(window).scrollTop() >= 1) {
+               $('header').addClass('header-fix');
+            }
+            else {
+               $('header').removeClass('header-fix');
+            }
+         });
+      </script>
+      <link href="https://www.econetafrica.com/css/nav-style.css" rel="stylesheet">
+   </head>
+   <body>
+      <header class="inner-header">
+         <div class="header-area">
+            <div class="lay-width clearfix">
+               <div class="logo"><a href="{{url('/')}}"><img src="https://www.econetafrica.com/images/logo.png" alt="Econet Wireless Logo" title="Econet Wireless"/></a></div>
+               <div class=" nav-area">
+                @include('front.nav')
+               </div>
+            </div>
+         </div>
+      </header>
+      <div class="inner-banner-area">
+         <img src="https://www.econetafrica.com//images/logo/3667aa22fefb71964cdbd2985c4fa9460bc8.jpg" alt="" title="" />
+         <div class="bdtop"></div>
+      </div>
+      <div class="heading-breadcrumb-area">
+         <div class="lay-width">
+            <h1>Our Businesses</h1>
+         </div>
+         <div class="breadcum-area">
+            <div class="lay-width">
+               <ol class="breadcrumb">
+                  <li><a href="https://www.econetafrica.com/" title="Home">Home</a></li>
+                  <li><a title="Who we are
+                     " href="javascript:void();" >Who we are
+                     </a>
+                  </li>
+                  <li><a title="Our Businesses
+                     " href="https://www.econetafrica.com/our-companies" >Our Businesses
+                     </a>
+                  </li>
+                  <li><a href="javascript:void(0)">Cassava Technologies</a></li>
+               </ol>
+            </div>
+         </div>
+      </div>
+      <div class="lay-width innercontent">
+         <div class="left-align">
+            <img style="width:100%; margin-bottom:30px;" src="https://www.econetafrica.com/images/logo/1200856191e85ca854fed003c7ed0da613eb3c619a.jpg" alt=" Cassava Technologies" title="Cassava Technologies">
+            <div id="inline_demo" style="width:100%;"> <iframe allowfullscreen="" frameborder="0" height="225" width="100%" src="https://www.youtube.com/embed/tha40oHWK88"></iframe> </div>
+         </div>
+         <p>As a company that is planted and firmly rooted in Africa, Cassava Technologies envisions a digitally connected future for every African and this is why we go to places where the need is greatest but digital inclusion is the least. We own and operate intelligent platforms that play a key role in enabling the mass adoption of digital services across Africa and we achieve this through our subsidiary companies that seamlessly complement each other.</p>
+         <p>We work to provide digital solutions for individuals and businesses in Africa that are inclusive and enable them to realize their economic potential. Leveraging on our Pan African digital broadband network, interconnected data centres, solar renewable energy, and global partnerships and the passion of our teams, our cloud, fintech & platform technology solutions are transforming the lives of ordinary people and changing the way businesses of all sizes deliver services across Africa.</p>
+         <p>Our founder-led executive team is diverse and has deep knowledge and experience of the African business landscape. This allows us to deliver on our mission, satisfy our customers, engender trust within the communities in which we operate, and deliver sustainable returns to our shareholders.</p>
+         <p>&nbsp;</p>
+         <div class="bmap clearfix">
+            <h2>Our Locations</h2>
+            <!-- MAP -->
+            <link rel="stylesheet" media="all" href="https://www.econetafrica.com/map/jquery-jvectormap.css"/>
+            <script src="https://www.econetafrica.com/map/tests/assets/jquery-1.8.2.js"></script>
+            <script src="https://www.econetafrica.com/map/jquery-jvectormap.js"></script>
+            <script src="https://www.econetafrica.com/map/lib/jquery-mousewheel.js"></script>
+            <script src="https://www.econetafrica.com/map/src/jvectormap.js"></script>
+            <script src="https://www.econetafrica.com/map/src/abstract-element.js"></script>
+            <script src="https://www.econetafrica.com/map/src/abstract-canvas-element.js"></script>
+            <script src="https://www.econetafrica.com/map/src/abstract-shape-element.js"></script>
+            <script src="https://www.econetafrica.com/map/src/svg-element.js"></script>
+            <script src="https://www.econetafrica.com/map/src/svg-group-element.js"></script>
+            <script src="https://www.econetafrica.com/map/src/svg-canvas-element.js"></script>
+            <script src="https://www.econetafrica.com/map/src/svg-shape-element.js"></script>
+            <script src="https://www.econetafrica.com/map/src/svg-path-element.js"></script>
+            <script src="https://www.econetafrica.com/map/src/svg-circle-element.js"></script>
+            <script src="https://www.econetafrica.com/map/src/svg-image-element.js"></script>
+            <script src="https://www.econetafrica.com/map/src/svg-text-element.js"></script>
+            <script src="https://www.econetafrica.com/map/src/map-object.js"></script>
+            <script src="https://www.econetafrica.com/map/src/region.js"></script>
+            <script src="https://www.econetafrica.com/map/src/marker.js"></script>
+            <script src="https://www.econetafrica.com/map/src/vector-canvas.js"></script>
+            <script src="https://www.econetafrica.com/map/src/simple-scale.js"></script>
+            <script src="https://www.econetafrica.com/map/src/ordinal-scale.js"></script>
+            <script src="https://www.econetafrica.com/map/src/numeric-scale.js"></script>
+            <script src="https://www.econetafrica.com/map/src/color-scale.js"></script>
+            <script src="https://www.econetafrica.com/map/src/legend.js"></script>
+            <script src="https://www.econetafrica.com/map/src/data-series.js"></script>
+            <script src="https://www.econetafrica.com/map/src/proj.js"></script>
+            <script src="https://www.econetafrica.com/map/src/map.js"></script>
+            <script src="https://www.econetafrica.com/map/tests/assets/africa.js"></script>
+            <script>
+               jQuery.noConflict();
+               jQuery(function(){
+                 var $ = jQuery;
+                 $('#map1').vectorMap({
+                   map: 'africa_mill',
+               backgroundColor:'#FFFFFF',
+               zoomOnScroll:false,
+               regionsSelectable:false,
+               regionStyle:{
+               initial: {
+               fill: '#f4f3f0',
+               "fill-opacity": 1,
+               stroke: '#FFFFFF',
+               "stroke-width":3,
+               "stroke-opacity": 1
+               },
+               hover: {
+               "fill-opacity": 1,
+               cursor: 'pointer',
+               fill: '#f4f3f0'
+               },
+               selected: {
+               fill: '#5054fc'
+               },
+               selectedHover: {fill: '#5054fc'
+               }
+               },
+               selectedRegions:['BW','KE','LS','CD','RW','ZA','SS','TZ','UG','ZM','ZW','EG','NG','GH','SN'],
+               onRegionClick:{initial: {fill: '#f4f3f0'}}
+
+                 });
+               })
+            </script>
+            <div class="maparea clearfix" id="our-location">
+               <div class="mleft">
+                  <div id="map1" class="splvmap" style="width:100%;"></div>
+               </div>
+               <div class="mright">
+                  <p> <span>Botswana</span><span>Kenya</span><span>Lesotho</span><span>Mauritius </span> <span>DRC</span> <span>Rwanda</span> <span>South Africa</span> <span>South Sudan</span> <span>Tanzania</span> <span>Uganda</span> <span>Zambia</span> <span>Zimbabwe</span><span>Egypt</span><span>Nigeria</span><span>Ghana</span><span>Senegal</span> </p>
+               </div>
+            </div>
+            <!-- MAP -->
+            <br />
+            <br />
+            <div style="clear:both; height:20px;">&nbsp;</div>
+            <p><a class="splbtn" href="https://cassavatechnologies.com/" target="_blank">Visit www.cassavatechnologies.com&nbsp;for more information <span>&nbsp; ></span></a></p>
+         </div>
+      </div>
+      <div class="footer">
+         <div class="lay-width clearfix">
+            <div class="fleft">
+               <ul>
+                  <li><a title="Facebook" href="http://www.econetwireless.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a title="Twitter" href="http://www.econetwireless.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a title="Youtube" href="https://www.youtube.com/channel/UCrU-t92Te4E2WxqyTRxDC6w"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                  <li><a title="Yahoo" href="http://www.econetwireless.com/"><i class="fa fa-yahoo" aria-hidden="true"></i></a></li>
+               </ul>
+            </div>
+            <div class="fright">
+               <p>© Copyright 2020 - Econet Group - All rights reserved. <a href="https://econetafrica.com/cookies-policy" title="Cookie Policy">Cookie Policy</a><a href="https://econetafrica.com/privacy-policy" title="Privacy Policy">Privacy Policy</a><a href="https://econetafrica.com/sitemap" title="Site Map">Site Map</a></p>
+            </div>
+         </div>
+      </div>
+      <script src="https://www.econetafrica.com/js/flaunt.js"></script>
+      <script>
+         $(".nav-submenu").nav-submenu({ 'animationSpeed' : 'slow' });
+      </script>
+   </body>
+</html>
