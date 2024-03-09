@@ -78,7 +78,7 @@
                     <div class="form-group">
                         <label for="text1" class="control-label col-lg-4">Select User</label>
                        <div class="col-lg-8">
-                            <select name="user_id" data-placeholder="Choose a Category" class="form-control chzn-select" tabindex="2">
+                            <select name="user_id" required data-placeholder="Choose a Category" class="form-control chzn-select" tabindex="2">
 
                             <?php $Category = DB::table('users')->where('type','0')->get(); ?>
                             @foreach($Category as $value)
@@ -102,7 +102,7 @@
 
                     <br><br>
                     <div class="col-lg-12 text-center">
-                      <button type="submit" class="btn btn-success"><i class="icon-plus icon-white"></i> Add Update</button>
+                      <button type="submit" class="btn btn-success"><i class="icon-plus icon-white"></i> Add Funds</button>
                     </div>
 
 
