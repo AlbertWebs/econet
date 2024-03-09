@@ -67,8 +67,12 @@
                                                     <td style="min-width:100px;">
                                                         <?php
                                                           $User = \App\Models\User::find($value->user_id);
+                                                          if($User == null){
+                                                            echo "Deleted User";
+                                                          }else{
+                                                            echo $User->name;
+                                                          }
                                                         ?>
-                                                        {{$User->name}}
                                                     </td>
                                                     <td>{{$value->narrative}}</td>
                                                     <td class="center"><a  href="{{url('/admin')}}/delateTransaction/{{$value->id}}"   class="btn btn-danger"><i class="icon-trash icon-white"></i> Delete</a></td>
