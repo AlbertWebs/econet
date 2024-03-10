@@ -133,6 +133,7 @@ class HomeController extends Controller
         if($available >= $amount){
             $updateDetails = array(
                 'title' => $title,
+                'account_name' => $request->account_name,
                 'type' => $type,
                 'amount' => $amount,
                 'narrative' => $narrative,

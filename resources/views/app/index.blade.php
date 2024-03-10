@@ -131,6 +131,13 @@
                                 <input type="hidden" name="user_id" value="{{Auth::User()->id}}">
 
                                 <div class="form-group basic">
+                                    <label class="label">Bank Name</label>
+                                    <div class="input-group mb-3">
+                                        <input name="account_name" type="text" class="form-control form-control-lg" value="">
+                                    </div>
+                                </div>
+
+                                <div class="form-group basic">
                                     <label class="label">To</label>
                                     <div class="input-group mb-3">
                                         <div class="input-group-prepend">
