@@ -74,7 +74,6 @@
 
                                                     <td style="min-width:100px;">
                                                         {{$User->name}}
-
                                                      </td>
 
                                                     <td>{{$value->narrative}}</td>
