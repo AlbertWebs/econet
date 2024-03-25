@@ -71,11 +71,11 @@
                                                     <td>{{$value->title}}</td>
                                                     <td style="min-width:100px;">
                                                        {{$User->name}}
-
                                                     </td>
                                                     <td>{{$value->content}}</td>
                                                     <td class="center"><a  href="{{url('/admin')}}/delateUpdate/{{$value->id}}"   class="btn btn-danger"><i class="icon-trash icon-white"></i> Delete</a></td>
                                                 </tr>
+                                                @endif
                                             @endforeach
 
                                             </tbody>
