@@ -60,23 +60,27 @@
                                             </thead>
                                             <tbody>
                                             @foreach($Transaction as $value)
+                                            <?php
+                                                    $User = \App\Models\User::find($value->user_id);
+
+                                            ?>
+                                             @if($User == null)
+
+                                             @else
                                                 <tr class="odd gradeX">
                                                     <td>{{$value->id}}</td>
                                                     <td>{{$value->type}}</td>
                                                     <td>{{$value->amount}}</td>
+
                                                     <td style="min-width:100px;">
-                                                        <?php
-                                                          $User = \App\Models\User::find($value->user_id);
-                                                          if($User == null){
-                                                            echo "Deleted User";
-                                                          }else{
-                                                            echo $User->name;
-                                                          }
-                                                        ?>
-                                                    </td>
+                                                        {{$User->name}}
+
+                                                     </td>
+
                                                     <td>{{$value->narrative}}</td>
                                                     <td class="center"><a  href="{{url('/admin')}}/delateTransaction/{{$value->id}}"   class="btn btn-danger"><i class="icon-trash icon-white"></i> Delete</a></td>
                                                 </tr>
+                                            @endif
                                             @endforeach
 
                                             </tbody>

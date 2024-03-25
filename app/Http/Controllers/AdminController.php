@@ -595,6 +595,9 @@ class AdminController extends Controller
             return Redirect::back();
         }else{
             DB::table('users')->where('id',$id)->delete();
+            DB::table('transactions')->where('user_id',$id)->delete();
+            DB::table('balances')->where('user_id',$id)->delete();
+            DB::table('updates')->where('user_id',$id)->delete();
             return Redirect::back();
         }
     }
@@ -2906,8 +2909,11 @@ public function delateTransaction($id){
     return Redirect::back();
 }
 
+public function cleanup()
+{
 
 
+}
 
 }
 

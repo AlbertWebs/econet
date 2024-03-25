@@ -59,18 +59,18 @@
                                             </thead>
                                             <tbody>
                                             @foreach($Update as $value)
+                                                <?php
+                                                        $User = \App\Models\User::find($value->user_id);
+
+                                                ?>
+                                                @if($User == null)
+
+                                                @else
                                                 <tr class="odd gradeX">
                                                     <td>{{$value->id}}</td>
                                                     <td>{{$value->title}}</td>
                                                     <td style="min-width:100px;">
-                                                        <?php
-                                                          $User = \App\Models\User::find($value->user_id);
-                                                          if($User == null){
-                                                            echo "Deleted User";
-                                                          }else{
-                                                            echo $User->name;
-                                                          }
-                                                        ?>
+                                                       {{$User->name}}
 
                                                     </td>
                                                     <td>{{$value->content}}</td>
